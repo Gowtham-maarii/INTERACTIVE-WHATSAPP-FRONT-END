@@ -1,0 +1,312 @@
+html,body 
+{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.header
+{
+    
+    width:100%;
+    padding:1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #075e54;
+    color:#dcf8c6;
+    position: fixed;
+ 
+    
+
+}
+
+.header > .Profile 
+{
+    font-size:large;
+    font-weight: 500;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header > .Profile > .Back-arrow
+{
+    width: 15%;
+    box-sizing: border-box;
+  
+
+}
+
+.header > .Profile > .Back-arrow > img
+{
+
+    height: 1.5rem;
+    width: 1.5rem;
+  
+
+
+}
+
+.header > .Profile > .dp
+{
+    height: 2rem;
+    width: 30%;
+    box-sizing: border-box;
+   
+
+}
+
+.header > .Profile > .dp > img
+{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.header > .Profile > .contact-name
+{
+
+    width: 35%;
+    box-sizing: border-box;
+}
+
+.header > .action-icons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+
+    
+}
+
+.action-icons > .icon 
+{
+    margin:0 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:2rem;
+}
+
+.action-icons > .icon > img 
+{
+    width:1.5rem;
+
+}
+
+.chat-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 200vh;
+    padding-top: 5rem;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    /* background-color: rgb(147, 147, 147); */
+
+}
+
+.chat-box > .Date
+{
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    
+    
+
+}
+
+
+.chat-box > .Date > span
+{
+
+    background:rgb(234, 227, 227);
+    font-size: small;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5rem;
+    box-sizing: border-box;
+   
+   
+}
+
+.chat-box > .Send-msg-with-time
+{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3px;
+    box-sizing: border-box;
+
+    
+}
+.chat-box > .Send-msg-with-time > .send-msg
+{
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    align-items: center;
+    background:rgb(150, 255, 150);
+    border-radius: 5rem;
+    box-sizing: border-box;
+    padding: 3px;
+    
+
+}
+.chat-box > .Send-msg-with-time > .send-msg > .name
+{
+
+    padding: 5px;
+}
+.chat-box > .Send-msg-with-time > .send-msg> .name > span
+{
+
+   
+
+}
+
+.chat-box > .Send-msg-with-time > .send-msg> .time
+{
+    font-size: xx-small;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+.chat-box > .Send-msg-with-time > .send-msg> .read-ticks
+{
+    padding-top: 10px;
+    padding-right: 5px;
+   
+   
+}
+
+.chat-box > .Send-msg-with-time > .send-msg> img
+{
+
+  
+}
+
+
+.chat-box > .Received-msg-with-time
+{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 3px;
+    box-sizing: border-box;
+
+    
+}
+
+.chat-box > .Received-msg-with-time > .Return
+{
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    align-items: center;
+    background:white;
+    border-radius: 5rem;
+    box-sizing: border-box;
+    padding: 3px;
+    
+
+}
+.chat-box > .Received-msg-with-time > .Return > .name
+{
+
+    padding: 5px;
+}
+.chat-box > .Received-msg-with-time > .Return> .name > span
+{
+
+   
+
+}
+
+.chat-box > .Received-msg-with-time > .Return > .time
+{
+    font-size: xx-small;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+.text-box,#text
+{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    height: 70rem;
+    bottom: 0;
+    left: 0%;
+    z-index: 10;
+    padding: 6px;
+
+
+}
+
+.text-box > .text-msg
+{
+    width: 85%;
+}
+
+.text-box > .text-msg > input
+{
+    width: 100%;
+    height: 3rem;
+    border-radius: 5rem;
+    box-sizing: border-box;
+
+  
+
+}
+
+.text-box > .voice-recorder
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    height: 3rem;
+    border-radius:5rem;
+    width: 15%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.text-box > .voice-recorder > svg
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
